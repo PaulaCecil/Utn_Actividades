@@ -1,0 +1,21 @@
+body {
+  margin: 1rem;
+  font-family: "Fira Sans", sans-serif;
+  color: brown;
+}
+
+body::before {
+  content: "";
+  background-image: url(https://i.imgur.com/RYDWajt.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+div p {
+  font-size: 2rem;
+}
